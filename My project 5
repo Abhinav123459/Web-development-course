@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+    <title>Personal Registration form</title>
+
+</head>
+
+<body>
+
+    <h1>Personal Details Form</h1>
+
+    <form>
+        <fieldset>
+            <legend><label>Name</label><br></legend>
+
+            <input type="text" id="name" placeholder="Enter name"><br><br>
+
+            <label>Email ID</label><br>
+
+            <input type="text" id="email" placeholder="Enter name"><br><br>
+
+            <label>Contact Number </label><br>
+
+            <input type="password" id="contact" placeholder="Enter correct mobile number to get OTP"><br><br>
+
+            <label>Gender</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">Female<br>
+
+            <input type="radio" id="male" name="gender" value="Male">Male<br><br>
+
+            <label>Preffered Food</label><br>
+
+            <input type="checkbox" id="Food" value="Veg">Veg<br>
+
+            <input type="checkbox" id="Food" value="Non veg">Non veg<br><br>
+            <label>Birth date</label>
+            <input type="date" id="Birthdate" name="Birth date"><br>
+            <label>Choose your state</label>
+            <select name="state" id="state">
+                <option>Punjab</option>
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chattisgarh</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jharkhand</option>
+                <option>Karnatka</option>
+                <option>Kerala</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Manipur</option>
+                <option>Meghalaya</option>
+                <option>Mizoram</option>
+                <option>Nagaland</option>
+                <option>odisha</option>
+                <option>Rajasthan</option>
+                <option>Sikkim</option>
+                <option>Tamil Nadu</option>
+                <option>Telangana</option>
+                <option>Tripura</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarkhand</option>
+                <option>West Bengal</option>
+
+                <input type="submit">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
