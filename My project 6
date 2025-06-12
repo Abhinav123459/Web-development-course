@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <style>
+        html. {
+            background-color: black;
+            color: white;
+            font-family: Arial;
+        }
+
+        #Div {
+            background-color: aqua;
+            color: black;
+            size: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
