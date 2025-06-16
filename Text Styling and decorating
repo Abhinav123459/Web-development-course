@@ -1,0 +1,44 @@
+<html>
+<title>Text styling and decorating</title>
+
+<head>
+    <style>
+        #text1 {
+            color: crimson;
+            size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: overline;
+            text-transform: capitalize;
+        }
+
+        #text2 {
+            color: blue;
+            size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: line-through;
+            text-shadow: 2px, 2px, 2px;
+        }
+
+        #text3 {
+            color: aquamarine;
+            size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+            text-transform: lowercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="text1">
+        <h1> Welcome to Codingal</h1>
+    </div>
+    <div id="text2">
+        <h2>Welcome to Codingal</h2>
+    </div>
+    <div id="text3">
+        <h3> Welcome to Codingal</h3>
+    </div>
+</body>
+
+</html>
