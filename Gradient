@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <style>
+        #gradient {
+            height: 300px;
+            background: linear-gradient(red 20%, green 70%);
+            background-position: right top;
+
+
+
+        }
+
+        #text {
+            color: rgb(90, 199, 123);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gradient">
+        <h1 id="Text">Welcome to codingal</h1>
+    </div>
+</body>
+
+</html>
