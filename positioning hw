@@ -1,0 +1,51 @@
+<html>
+<title>Positioning</title>
+
+<head>
+    <h1> Positioning</h1>
+</head>
+<style>
+    div {
+        right: 30px;
+        border: 3px solid red;
+
+    }
+
+    .absolute {
+        position: absolute;
+        left: 20px;
+        border: 3px solid blue;
+
+    }
+
+    .relative {
+        position: relative;
+        top: 30px;
+        right: 15px;
+        border: 3px solid blue;
+
+    }
+
+    .fixed {
+
+        top: 0;
+
+        position: fixed;
+
+        right: 20px;
+
+        width: 30px;
+
+        border: 2px solid blueviolet;
+
+    }
+</style>
+
+<body>
+    <div class="absolute">Here is one division of positioning with propery of absolute position
+    </div>
+    <div class="fixed">here is one with fixed position</div>
+    <div class="relative">here is one with relative position</div>
+</body>
+
+</html>
