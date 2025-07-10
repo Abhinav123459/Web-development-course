@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+    </script>
+
+    <style>
+        .customborder {
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container bg-success text-white customborder">
+        <h1>My first bootstrap page</h1>
+        <p>This part is inside .container class</p>
+        <p>this .container class provides us a responsive fixed width container</p>
+
+    </div>
+    <div class="container-fluid border border-5 border-warning bg-info text-dark p-4 my-5">
+        <h1>My first bootstrap page</h1>
+        <p>This part is inside .container-fluid class.</p>
+        <p>this is first fluid class</p>
+    </div>
+    <div class="container-fluid bg-warning text-muted">
+        <h1>My first bootstrap page</h1>
+        <p>This part is inside .container-fluid class.</p>
+        <p>this is second fluid class</p>
+
+    </div>
+
+
+</body>
+
+</html>
