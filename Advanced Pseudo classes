@@ -38,7 +38,7 @@
         </ul>
     </div>
     <style>
-        div:not(.f):hover {
+        div:not(.f, .nth,.child):hover {
             color: chocolate;
             font-family: 'Courier New', Courier, monospace;
             font-weight: bold;
@@ -52,7 +52,7 @@
         </ul>
     </div>
     <style>
-        div:not(.Hover) ::first-letter {
+        div:not(.Hover, .nth,.child) ::first-letter {
             color: brown;
             font-weight: bolder;
             font-size: x-large;
@@ -60,3 +60,41 @@
 
         }
     </style>
+    <h2>Nth Child</h2>
+    <div class="nth">
+        <ol>
+            <li>Item 1</li>
+            <Li>Item 2</Li>
+            <li>Item 3</li>
+        </ol>
+    </div>
+    <style>
+        ol li:nth-child(2) {
+            background-color: yellow;
+        }
+    </style>
+    <h2>Place holders</h2>
+    <input type="text" placeholder="Text input"><br><br>
+    <input type="password" placeholder="Password">
+    <style>
+        input[type="text"] {
+            border: 2px solid navy
+        }
+
+        input[type="password"] {
+            border: 2px dashed red;
+        }
+    </style>
+    <h2>Child selectors</h2>
+    <div class="child">
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+        </ul>
+    </div>
+    <style>
+        div:not(.f,.nth,.hover){
+            color: green;
+        }
+    </style>
+    
