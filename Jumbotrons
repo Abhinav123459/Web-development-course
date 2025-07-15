@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body style="text-align: center;">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Codingal</h1>
+            <p>Making kids fall in love with coding!!</p>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <h2>Let's Create buttons!!!</h2>
+        <button type="button" class="btn btn-primary btn-lg">Primary</button>
+        <button type="button" class="btn btn-secondary btn-sm">Secondary</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger active">Danger</button>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Contextual Badges</h2>
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-warning">Warning</span>
+        <h3><span class="badge badge-pill badge-warning">Warning</span></h3>
+        <h2>Message<span class="badge badge-info">4</span></h2>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Now it's time to learn Progress bar</h2>
+        <div class="progress">
+            <div class="progress-bar" style="width:40%;">40%</div>
+        </div><br><br>
+    </div>
+
+</body>
+
+</html>
