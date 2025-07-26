@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+    </script>
+
+    <style>
+        img#flowerRight {
+            float: right
+        }
+
+        img#flowerLeft {
+            float: left
+        }
+
+        .boxmodel {
+            width: 300px;
+            background-color: aqua;
+            padding: 60px;
+            margin: 50px;
+            border: 5px solid grey;
+        }
+
+        .h1 {
+            font-style: italic;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bolder;
+            color: blue;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="h1">Box model</h1>
+    <p>There is a project to show you box model with padding and Flowers on left and rightwith float property</p>
+    <p class="boxmodel">Box model</p>
+    <hr style="width: 10px; height: 10px;">
+    <p>Now flowers on left and right
+
+        <img id="flowerLeft" src="flower.jpeg" alt="Flower" style="width: 100px; height: 100px;">
+        <img id="flowerRight" src="flower.jpeg" alt="Flower" style="width: 100px; height: 100px;">
+    </p>
+</body>
+
+</html>
