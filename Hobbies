@@ -1,0 +1,39 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+    </script>
+    <title>My hobbies</title>
+</head>
+
+<body>
+    <div class="container bg-success text-white border: 5px solid black p-3 my-3">
+        <h1>
+            Playing Cricket
+        </h1>
+        <p>I play cricket Daily</p>
+        <img src="cricket.jpg" alt="Cricket" style="width: 100px; height:100px;">
+    </div>
+    <div class="container bg-danger text-black border: 5px solid black p-3 my-3">
+        <h1>
+            Playing video games
+        </h1>
+        <p>I like to play video games</p>
+        <img src="Video game.jpg" alt="Video game" style="width: 100px ; height:100px ;">
+    </div>
+    <div class="container-fluid bg-primary text-red border: 5px solid black p-3 my-3">
+        <h1>
+            Study
+        </h1>
+        <p>I study daily</p>
+        <img src="study.jpg" alt="study" style="width: 100 px ; height: 100px ;">
+    </div>
+</body>
+</html>
