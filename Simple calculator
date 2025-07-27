@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Operators</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Variables and Operators</h1>
+    <p>Operations on Two Numbers:</p>
+
+    <p id="addResult"></p>
+    <p id="subResult"></p>
+    <p id="mulResult"></p>
+    <p id="divResult"></p>
+    <p id="remainderResult"></p>
+
+    <script>
+        var num1 = 5;
+        var num2 = 6;
+
+        var addition = num1 + num2;
+        var subtraction = num1 - num2;
+        var multiplication = num1 * num2;
+        var division = num1 / num2;
+        var remainder = num1 % num2;
+
+        document.getElementById("addResult").innerHTML = "Addition: " + addition;
+        document.getElementById("subResult").innerHTML = "Subtraction: " + subtraction;
+        document.getElementById("mulResult").innerHTML = "Multiplication: " + multiplication;
+        document.getElementById("divResult").innerHTML = "Division: " + division;
+        document.getElementById("remainderResult").innerHTML = "Remainder: " + remainder;
+    </script>
+
+</body>
+
+</html>
