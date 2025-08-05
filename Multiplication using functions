@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplication using Variables and Functions</title>
+</head>
+<body>
+
+    <h2>Multiplication of Two Numbers</h2>
+    <button onclick="multiplyNumbers()">Click to Multiply</button>
+
+    <p id="result"></p>
+
+    <script>
+        var num1 = 5;
+        var num2 = 6;
+
+        function multiplyNumbers() {
+            var result = num1 * num2;
+            document.getElementById("result").innerHTML = "Result: " + result;
+        }
+    </script>
+
+</body>
+</html>
