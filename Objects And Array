@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Object data structure With array join and pop</h2>
+    <p>Here is the code how it is done</p>
+    <p id="demo"></p>
+    <p id="myfirstdemo"></p>
+    <p id="myfirstpop"></p>
+    <script>
+        var codes = [
+            "Java Coding",
+            "Html Coding",
+            "Python Coding"
+        ];
+        document.getElementById("demo").innerHTML = codes[0] + codes[2]; 
+        document.getElementById("myfirstdemo").innerHTML =  codes.join(" * ");
+        document.getElementById("myfirstpop").innerHTML = codes; code.pop();
+
+    </script>
+</body>
+
+</html>
