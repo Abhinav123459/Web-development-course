@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Sorting</title>
+</head>
+<body>
+    <h2>Sorting Array</h2>
+    <p id="asc"></p>
+    <p id="desc"></p>
+
+    <script>
+        var numbers = [45, 12, 89, 33, 7, 56];
+
+        var ascending = [...numbers].sort(function(a, b){return a - b});
+        var descending = [...numbers].sort(function(a, b){return b - a});
+
+        document.getElementById("asc").innerHTML = "Ascending: " + ascending;
+        document.getElementById("desc").innerHTML = "Descending: " + descending;
+    </script>
+</body>
+</html>
