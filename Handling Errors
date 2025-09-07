@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Handling</title>
+</head>
+<body>
+    <h2>Error Handling Example</h2>
+    <p id="output"></p>
+
+    <script>
+        try {
+            let num = undefined;
+            let result = num.toUpperCase(); 
+            document.getElementById("output").innerHTML = result;
+        } 
+        catch(error) {
+            document.getElementById("output").innerHTML = "Error: " + error.message;
+        }
+    </script>
+</body>
+</html>
