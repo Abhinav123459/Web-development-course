@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static Method Example</title>
+</head>
+<body>
+    <h2>Accessing Class with Static Method</h2>
+    <p id="result"></p>
+
+    <script>
+        class Car {
+            constructor(name) {
+                this.name = name;
+            }
+
+            static brandInfo() {
+                return "This is a luxury car brand.";
+            }
+        }
+
+        document.getElementById("result").innerHTML = Car.brandInfo();
+    </script>
+</body>
+</html>
