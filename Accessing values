@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accessing values</title>
+</head>
+<body>
+    <h2>Luxury Cars</h2>
+    <p id="car1"></p>
+    <p id="car2"></p>
+    <p id="car3"></p>
+    <p id="car4"></p>
+
+    <script>
+        var cars = ["Mercedes-Benz", "BMW", "Audi", "Lamborghini"];
+
+        document.getElementById("car1").innerHTML = "First Car: " + cars[0];
+        document.getElementById("car2").innerHTML = "Second Car: " + cars[1];
+        document.getElementById("car3").innerHTML = "Third Car: " + cars[2];
+        document.getElementById("car4").innerHTML = "Fourth Car: " + cars[3];
+    </script>
+</body>
+</html>
