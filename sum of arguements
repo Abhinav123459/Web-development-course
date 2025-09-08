@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Random Number</title>
-</head>
+<html>
 <body>
-
-    <h2>Random Number Generator</h2>
-
-    <button onclick="showRandom()">Click to Show</button>
-
-    <p id="output"></p>
+    <h2>Math Functions</h2>
+    <p id="result"></p>
 
     <script>
-        function showRandom() {
-            var randomNumber = Math.floor(Math.random() * 100) + 1;
-            document.getElementById("output").innerHTML = 
-                "Random Number: " + randomNumber;
-        }
-    </script>
+        let text = "";
 
+        text += "Round(4.6): " + Math.round(4.6) + "<br>";
+        text += "Floor(4.9): " + Math.floor(4.9) + "<br>";
+        text += "Ceil(4.1): " + Math.ceil(4.1) + "<br>";
+        text += "Min(2, 5, 1): " + Math.min(2, 5, 1) + "<br>";
+        text += "Max(2, 5, 1): " + Math.max(2, 5, 1) + "<br>";
+        text += "Random: " + Math.random() + "<br>";
+
+        document.getElementById("result").innerHTML = text;
+    </script>
 </body>
 </html>
