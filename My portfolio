@@ -1,0 +1,183 @@
+//HTML
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="rest.css" />
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+    <title>Portfolio of AG restaurant</title>
+    </div>
+    <div class="col-6 pt-2">
+        <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+            <div class="col-3">
+                <button onclick="scrolltoSection('about')" class="text-white navigation-link">ABOUT</button>
+            </div>
+            <div class="col-3">
+                <button onclick="scrolltoSection('menu')" class="text-white navigation-link">menu</button>
+
+            </div>
+
+            <div class="col-3">
+                <a href="https://packetcode.github.io/web-development-crash-course/resume-mini-project/" target="_blank"
+                    class="text-white navigation-link">Resume</a>
+            </div>
+        </div>
+    </div>
+</head>
+
+<body>
+    <p class="about">This is AG restaurant,This is a business that prepares and serves food and drinks to customers,
+        operating with different models from
+        fast food to fine dining, and offering dine-in, take-out, and delivery services. Successful restaurants need
+        good
+        locations, strong branding, efficient management, and systems for operations to provide a unique and positive
+        customer
+        experience.a place where passion for food meets warm hospitality. As the proud owner, I’ve always believed that
+        a restaurant should
+        feel like a second home for its guests, and that is exactly what we strive to create here. Our menu is a
+        carefully
+        curated blend of traditional recipes and modern flavors, designed to satisfy every palate. From our freshly
+        baked breads
+        and aromatic curries to sizzling grills and refreshing beverages, every dish is prepared with handpicked
+        ingredients and
+        a touch of love. We work closely with local farmers to bring the freshest vegetables, dairy, and spices to your
+        table,
+        ensuring both quality and authenticity. Beyond the food, we have created an atmosphere that reflects comfort and
+        elegance—soft lighting, cozy seating, and friendly staff who treat you like family. Whether you’re here for a
+        quick
+        lunch, a family gathering, or a special celebration, The Golden Spoon promises not just a meal, but an
+        experience filled
+        with flavors, warmth, and memories that linger long after your visit.where culinary excellence and refined
+        hospitality come together to create a memorable dining experience. As the owner,
+        my vision has always been to establish a restaurant that represents both quality and authenticity. Our menu is
+        thoughtfully designed to offer a diverse selection of dishes that balance traditional flavors with contemporary
+        presentation. Every item is crafted using the finest, locally sourced ingredients, ensuring freshness, taste,
+        and
+        nutritional value. From our signature entrées to our handcrafted desserts, each plate reflects a commitment to
+        precision
+        and care. At The Golden Spoon, we believe that dining extends beyond food—it is an experience that should
+        delight all
+        the senses. Our elegant interiors, attentive service, and serene ambiance are tailored to provide guests with
+        comfort
+        and sophistication. Whether you join us for a casual lunch, a formal dinner, or a private celebration, we are
+        dedicated
+        to delivering an exceptional standard of service and cuisine that leaves a lasting impression.</p>
+    <p class="menu">🥗Starters
+
+        Classic Caesar Salad – Crisp romaine, parmesan, and house-made dressing
+
+        Tomato Basil Soup – Fresh tomatoes simmered with basil and cream
+
+        Crispy Spring Rolls – Vegetable-stuffed rolls with sweet chili dip
+
+        Grilled Paneer Tikka – Marinated paneer cubes roasted to perfection
+
+        Chicken Satay Skewers – Served with peanut dipping sauce
+
+        🍝 Main Course
+
+        Vegetable Biryani – Fragrant basmati rice with spices and seasonal vegetables
+
+        Butter Chicken – Tender chicken simmered in creamy tomato gravy
+
+        Grilled Fish with Lemon Butter – Served with mashed potatoes and sautéed greens
+
+        Pasta Alfredo / Arrabiata – Choice of creamy or spicy sauce with garlic bread
+
+        Chef’s Special Veg Platter – Selection of grilled seasonal vegetables and paneer
+
+        🍰 Desserts
+
+        Chocolate Lava Cake – Molten chocolate center, served with vanilla ice cream
+
+        Classic Tiramisu – Coffee-soaked layers with mascarpone cream
+
+        Rasmalai – Soft paneer dumplings soaked in saffron milk
+
+        New York Cheesecake – Smooth and creamy, with berry compote
+
+        ☕ Beverages
+
+        Fresh Lime Soda – Sweet or salted
+
+        Cold Coffee with Ice Cream
+
+        Masala Chai / Herbal Tea
+
+        Mocktails – Virgin Mojito, Blue Lagoon, Tropical Punch
+
+        Fresh Fruit Juices & Smoothies
+
+        ✨ All dishes are prepared with premium, locally sourced ingredients to ensure freshness and quality.</p>
+</body>
+
+
+
+// CSS
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: "Baloo Tamma 2", cursive;
+    background-color: #252525;
+
+}
+
+/* MAIN HEADING FONT */
+.m-heading {
+    font-family: "Roboto Slab", serif;
+
+}
+
+/* NAVIGATION */
+.navigation-link {
+    border: 2px solid transparent0;
+}
+
+.navigation-link:hover {
+    text-decoration: dotted;
+    border-bottom: 3px solid #f5ba09;
+    transition: 0.5s ease;
+
+}
+
+.about {
+    font-style: italic;
+    font: bold;
+    color: aliceblue;
+
+}
+
+.menu {
+    font-style: italic;
+    font: bold;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
