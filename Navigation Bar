@@ -1,0 +1,90 @@
+// html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="Style css.css" />
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container navigation pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fa fa-spinner fa-spin fa-2x fa-fw text-warning pb-3"></i>
+                <h5 class="D-inline pl-2 text-white">CODINGAL</h5>
+            </div>
+            <div class="col-6 pt-2">
+                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                    <div class="col-3">
+                        <a href="#about" class="text-white navigation-link">ABOUT</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#projects" class="text-white navigation-link">PROJECTS</a>
+
+                    </div>
+                    <div class="col-3">
+                        <a href="#social-media" class="text-white navigation-link">SOCIAL MEDIA</a>
+
+                    </div>
+                    <div class="col-3">
+                        <a href="https://packetcode.github.io/web-development-crash-course/resume-mini-project/"
+                            target="_blank" class="text-white navigation-link">Resume</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+// CSS
+/* GLOBAL PROPERTIES */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: "Baloo Tamma 2", cursive;
+    background: #252525;
+}
+
+/* MAIN HEADING FONT */
+.m-heading {
+    font-family: "Roboto Slab", serif;
+
+}
+
+/* NAVIGATION */
+.navigation-link {
+    border: 2px solid transparent0;
+}
+
+.navigation-link:hover {
+    text-decoration: dotted;
+    border-bottom: 3px solid #f5ba09;
+    transition: 0.5s ease;
+
+}
