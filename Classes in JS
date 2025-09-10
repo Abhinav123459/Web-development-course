@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Class Inheritance Example</title>
+    <title>Static Method Example</title>
 </head>
 <body>
     <h2 id="result1"></h2>
@@ -17,10 +17,6 @@
             static brandInfo() {
                 return "This is a luxury car brand.";
             }
-
-            carName() {
-                return this.name;
-            }
         }
 
         class Model extends Car {
@@ -34,7 +30,7 @@
         let model1 = new Model("BMW", "X7");
 
         document.getElementById("result1").innerHTML = Car.brandInfo();
-        document.getElementById("result2").innerHTML = car1.carName();
+        document.getElementById("result2").innerHTML = car1.name;
         document.getElementById("result3").innerHTML = model1.name + " " + model1.model;
     </script>
 </body>
