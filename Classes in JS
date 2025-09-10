@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Static Method Example</title>
+    <title>Class Inheritance Example</title>
 </head>
 <body>
-    <h2>Accessing Class with Static Method</h2>
-    <p id="result"></p>
+    <h2 id="result1"></h2>
+    <h2 id="result2"></h2>
+    <h2 id="result3"></h2>
 
     <script>
         class Car {
@@ -16,9 +17,25 @@
             static brandInfo() {
                 return "This is a luxury car brand.";
             }
+
+            carName() {
+                return this.name;
+            }
         }
 
-        document.getElementById("result").innerHTML = Car.brandInfo();
+        class Model extends Car {
+            constructor(name, model) {
+                super(name);
+                this.model = model;
+            }
+        }
+
+        let car1 = new Car("Mercedes-Benz");
+        let model1 = new Model("BMW", "X7");
+
+        document.getElementById("result1").innerHTML = Car.brandInfo();
+        document.getElementById("result2").innerHTML = car1.carName();
+        document.getElementById("result3").innerHTML = model1.name + " " + model1.model;
     </script>
 </body>
 </html>
