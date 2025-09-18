@@ -1,0 +1,313 @@
+//HTML
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AG Restaurant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <link rel="stylesheet" href="rest.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="80">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">AG Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#social">Social Media</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero-banner d-flex align-items-center justify-content-center">
+        <div>
+            <h1 class="h1">Welcome to AG Restaurant</h1>
+            <p class="p">Where flavor meets elegance</p>
+        </div>
+    </section>
+
+    <div id="restaurantCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="exterior.jfif" class="d-block w-100" alt="Exterior">
+            </div>
+            <div id="carousel-item">
+                <img src="restaurant.jfif" class="d-block w-100" alt="Dining Area">
+            </div>
+            <div class="carousel-item">
+                <img src="kitchen.jfif" class="d-block w-100" alt="Kitchen">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#restaurantcarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#restaurantCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>This is AG Restaurant, where we combine passion, quality ingredients, and creativity to deliver an
+                unforgettable dining experience. From carefully crafted dishes to a warm and welcoming atmosphere, we
+                make every visit memorable.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <p>🥗 Starters: Classic Caesar Salad, Tomato Basil Soup, Crispy Spring Rolls, Grilled Paneer Tikka...</p>
+            <p>🍝 Main Course: Vegetable Biryani, Butter Chicken, Grilled Fish, Pasta Alfredo/Arrabiata...</p>
+            <p>🍰 Desserts: Chocolate Lava Cake, Tiramisu, Rasmalai, New York Cheesecake...</p>
+            <p>☕ Beverages: Fresh Lime Soda, Cold Coffee, Masala Chai, Mocktails, Fresh Juices...</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Reach us at <strong>+91-9572680000</strong> or email <strong>info@agrestaurant.com</strong></p>
+            <p>Visit us at: 189 great Street, Mumbai</p>
+        </div>
+    </section>
+
+        <section id="social" class="container-fluid">
+            <div class="container text-primary py-5">
+                <h3 class="text-warning">Social Media</h3>
+                <h1 class="m-heading">Join us on!</h1>
+
+                <div class="row pt-5">
+
+                    <div class="col-4">
+                        <a class="media_link youtube-btn w-100" href="https://www.youtube.com/@PROCREATORS57"
+                            target="_blank">
+                            <div class="row">
+                                <div class="col-6 d-flex justify-content-start">
+                                    <h3 class="m-0 pt-2">YouTube</h3>
+                                </div>
+                                <div class="col-6 d-flex justify-content-end align-items-center">
+                                    <i class="fa fa-youtube fa-2x"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a class="media_link github-btn w-100" href="https://github.com/Abhinav123459" target="_blank">
+                            <div class="row">
+                                <div class="col-6 d-flex justify-content-start">
+                                    <h3 class="m-0 pt-2">GitHub</h3>
+                                </div>
+                                <div class="col-6 d-flex justify-content-end align-items-center">
+                                    <i class="fa fa-github fa-2x"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a class="media_link discord-btn w-100"
+                            href="https://discord.com/channels/1318496187195592714/1318496187195592717" target="_blank">
+                            <div class="row">
+                                <div class="col-6 d-flex justify-content-start">
+                                    <h3 class="m-0 pt-2">Discord</h3>
+                                </div>
+                                <div class="col-6 d-flex justify-content-end align-items-center">
+                                    <i class="fa-brands fa-discord fa-2x"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+  
+    <footer>
+        <div class="container text-muted text-center py-3 mt-5">
+            <h5>
+                Copyright &copy; 2025 |
+                <a class="text-secondary text-decoration-underlined" href="#about">All Rights Are Reserved By AG
+                    Restaurant</a>
+            </h5>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+//CSS 
+// rest.css:
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: burlywood;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link.active {
+    color: #ffcc00 !important;
+}
+
+.hero-banner {
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-banner h1 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 3rem;
+}
+
+.hero-banner p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.h1 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 50px;
+
+}
+
+.media_link {
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.media_link h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.youtube-btn {
+    background: #ff0000;
+}
+
+.youtube-btn:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+}
+
+.github-btn {
+    background: #24292e;
+}
+
+.github-btn:hover {
+    background: #000;
+    transform: scale(1.05);
+}
+
+.discord-btn {
+    background: #5865F2;
+}
+
+.discord-btn:hover {
+    background: #404EED;
+    transform: scale(1.05);
+}
+
+// Style.css
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0D1117;
+    color: #C9D1D9;
+}
+
+h1 {
+    color: #58A6FF;
+}
+
+
+a {
+    color: #8B949E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2acc68;
+}
+
+
+ul>li {
+    font-weight: bold;
+}
+
+
+h1+p {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+
+ul li:hover {
+    color: #4F8CC9;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+a::after {
+    content: "✨";
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: #8b1209;
+}
